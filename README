@@ -1,3 +1,9 @@
 AUS: A game about stabbing people down under.
 
-not sure what a pygame program looks like at the moment, so organization will have to go here later, I guess.
+Installing pygame: 
+  - go here: http://pygame.org/download.shtml
+  - search for: "Snow leopard osx apple supplied python"
+    and download the thing from the link and install it.
+  - run ./aus.py 
+  - ping me if it doesn't work
+

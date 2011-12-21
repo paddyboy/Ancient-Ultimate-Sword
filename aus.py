@@ -2,8 +2,7 @@
 
 from pygame import init, display, draw, time, event
 
-# ideally we import individual event type names here, it's cleaner, IMO
-from pygame import QUIT
+from pygame.locals import *
 
 from sys import exit
 
