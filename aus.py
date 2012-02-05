@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from pygame import init, display, draw, time, event
-
+from pygame.sprite import * 
 from pygame.locals import *
 
 from sys import exit
@@ -17,7 +17,15 @@ clock = time.Clock()
 ##  CLASSES 
 ############################################################
 
-class 
+class guy(Sprite):
+    def __init__(self, x, y): 
+        Sprite.__init__(self)
+
+        self.x = x
+        self.y = y 
+        self.rect = ((x,y,30, 30))
+    def update(self):
+        pass
 
 
 while True: 
